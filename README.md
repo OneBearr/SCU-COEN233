@@ -1,12 +1,12 @@
-Xiongsheng Yi Coen233 Computer Network Programming Assignment
+## Xiongsheng Yi Coen233 Computer Network Programming Assignment
 
-/*      Programming Assignment One     */
+### /*      Programming Assignment One     */
 Related Files: 
 client1.c     server1.c 
 
 To-run instruction code: 
-1. Type   gcc -o filename filename.c   to compile in the terminal
-2. Type   ./filename    to run
+1. Type   `gcc -o filename filename.c`   to compile in the terminal
+2. Type   `./filename`    to run
 
 Part one:
 Client sends 5 packets to the server, server sends ACK to client for each packet.
@@ -24,13 +24,13 @@ Use a ack_timer(3 secs), retransmite the packets if no response from server. Sen
 Show "server no response" if no ACK after three times transmission. 
 1. Do not open(run) server1 (no listening), just run client1 (sending). 
 
-/*      Programming Assignment Two     */
+### /*      Programming Assignment Two     */
 Related Files: 
 client2.c     server2.c     VerificationDatabase.txt
 
 To-run instruction code: 
-1. Type   gcc -o filename filename.c   to compile in the terminal
-2. Type   ./filename    to run
+1. Type   `gcc -o filename filename.c`   to compile in the terminal
+2. Type   `./filename`    to run
 
 Part one:
 The client requests access information from server, the server verifies the validity of the requiest and responses accordingly. 
